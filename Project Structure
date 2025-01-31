@@ -1,0 +1,11 @@
+WeatherPredictionHMM/
+│── data/                      # Dataset storage
+│── models/                    # Trained HMM models
+│── src/                        # Source code
+│   │── preprocess.py           # Data Preprocessing (Pandas)
+│   │── train_hmm.py            # Train Hidden Markov Model
+│   │── predict.py              # Predict weather states
+│   │── evaluate.py             # Model evaluation and comparison
+│   │── visualize.py            # Plot weather trends
+│── requirements.txt            # Dependencies
+│── README.md                   # Documentation
